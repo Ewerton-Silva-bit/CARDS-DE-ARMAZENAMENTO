@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cards</title>
+</head>
+<body>
+    <div class="light"></div>
+    <div class="toggle"></div>
+    <div class="container">
+        <div class="card">
+            <div class="box">
+                <div class="content">
+                    <div class="icon"><i class="fa fa-paper-plane" aria-hidden="true"></i></div>
+                    <h3>Básico</h3>
+                    <h4><sup>R$</sup>25,00</h4>
+                    <ul>
+                        <li><i class="fa fa-check" aria-hidden="true"></i>10 GB DE ESPAÇO</li>
+                        <li><i class="fa fa-check" aria-hidden="true"></i>3 DOMÍNIOS</li>
+                        <li><i class="fa fa-check" aria-hidden="true"></i>10 ENDEREÇÇOS DE E-MAIL</li>
+                        <li><i class="fa fa-times" aria-hidden="true"></i>SUPORTE</li>
+                    </ul>
+                    <a href="#">Adicionar ao carrinho!</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="box">
+                <div class="content">
+                    <div class="icon"><i class="fa fa-plane" aria-hidden="true"></i></div>
+                    <h3>Padrão</h3>
+                    <h4><sup>R$</sup>50,00</h4>
+                    <ul>
+                        <li><i class="fa fa-check" aria-hidden="true"></i>30 GB DE ESPAÇO</li>
+                        <li><i class="fa fa-check" aria-hidden="true"></i>10 DOMÍNIOS</li>
+                        <li><i class="fa fa-check" aria-hidden="true"></i>20 ENDEREÇÇOS DE E-MAIL</li>
+                        <li><i class="fa fa-times" aria-hidden="true"></i>SUPORTE</li>
+                    </ul>
+                    <a href="#">Adicionar ao carrinho!</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="box">
+                <div class="content">
+                    <div class="icon"><i class="fa fa-rocket" aria-hidden="true"></i></div>
+                    <h3>Premium</h3>
+                    <h4><sup>R$</sup>80,00</h4>
+                    <ul>
+                        <li><i class="fa fa-check" aria-hidden="true"></i>50 GB DE ESPAÇO</li>
+                        <li><i class="fa fa-check" aria-hidden="true"></i>20 DOMÍNIOS</li>
+                        <li><i class="fa fa-check" aria-hidden="true"></i>20 ENDEREÇÇOS DE E-MAIL</li>
+                        <li><i class="fa fa-check" aria-hidden="true"></i>SUPORTE</li>
+                    </ul>
+                    <a href="#">Adicionar ao carrinho!</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script>
+    const body = document.querySelector('body');
+    document.querySelector('.toggle').onclick = function(){
+        body.classList.toggle('light')
+    }
+</script>
+
+</html>
